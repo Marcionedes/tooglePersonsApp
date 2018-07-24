@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.Button {
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: rgba(0, 128, 0, 0.871);
+  font: inherit;
+  cursor: pointer;
+}
+
+.Button:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+
+.Button.Red:hover{
+  background-color: salmon;
+  color: black;
+}
+
